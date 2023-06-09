@@ -6,8 +6,8 @@ const QRComponent = () => {
   return (
     <div className="max-w-[375px] p-4 bg-white rounded-2xl">
       <Image src={qrImage} alt="qr-code-image" className="rounded-xl" />
-      <div className="py-6 px-4 text-center flex flex-col gap-4">
-        <h1 className="font-bold text-xl">
+      <div className="px-6 py-4 text-center flex flex-col gap-4">
+        <h1 className="font-bold text-2xl">
           Improve your front-end skills by building projects
         </h1>
         <p className="text-[15px] text-qr-gray-blue">
