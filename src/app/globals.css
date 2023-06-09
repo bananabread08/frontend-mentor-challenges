@@ -31,5 +31,9 @@ body {
     --light-gray: 212deg 45% 89%;
     --gray-blue: 220 15% 55%;
     --dark-blue: 218 44% 22%;
+    --pr-dark-cyan: 158 36% 37%;
+    --pr-cream: 30 38% 92%;
+    --pr-dark-blue: 212 21% 14%;
+    --pr-dark-grayish-blue: 228 12 48%;
   }
 }
