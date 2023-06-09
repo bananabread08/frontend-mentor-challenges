@@ -18,7 +18,7 @@ export default function ProductReviewLayout({
 }) {
   return (
     <section
-      className={`bg-pr-cream min-h-screen grid place-content-center px-4 ${montserrat.variable} ${fraunces.variable}`}
+      className={`bg-pr-cream min-h-screen grid place-content-center p-4 ${montserrat.variable} ${fraunces.variable}`}
     >
       {children}
     </section>
