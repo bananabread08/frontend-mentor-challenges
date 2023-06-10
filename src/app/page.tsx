@@ -10,6 +10,9 @@ export default function Home() {
         <Link href="/product-preview" className="underline text-blue-600">
           Product Preview Card
         </Link>
+        <Link href="/results-summary" className="underline text-blue-600">
+          Results Summary Component
+        </Link>
       </div>
     </main>
   );

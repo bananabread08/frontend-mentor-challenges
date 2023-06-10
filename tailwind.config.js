@@ -21,6 +21,17 @@ module.exports = {
         'pr-dark-blue': 'hsl(var(--pr-dark-blue) / <alpha-value>)',
         'pr-dark-grayish-blue':
           'hsl(var(--pr-dark-grayish-blue) / <alpha-value>)',
+        'rs-light-red': 'hsl(var(--rs-light-red) / <alpha-value>)',
+        'rs-orange-yellow': 'hsl(var(--rs-orange-yellow) / <alpha-value>)',
+        'rs-green-teal': 'hsl(var(--rs-green-teal) / <alpha-value>)',
+        'rs-cobalt-blue': 'hsl(var(--rs-cobalt-blue) / <alpha-value>)',
+        'rs-light-slateblue': 'hsl(var(--rs-light-slateblue))',
+        'rs-light-royalblue': 'hsl(var(--rs-light-royalblue))',
+        'rs-violetblue': 'hsla(var(--rs-violetblue) , 1)',
+        'rs-persianblue': 'hsla(var(--rs-persianblue) , 0)',
+        'rs-paleblue': 'hsl(var(--rs-paleblue) / <alpha-value>)',
+        'rs-light-lavender': 'hsl(var(--rs-light-lavender) / <alpha-value>)',
+        'rs-dark-grayblue': 'hsl(var(--rs-dark-grayblue) / <alpha-value>)',
       },
       fontFamily: {
         montserrat: ['var(--font-montserrat)'],

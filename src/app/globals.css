@@ -26,6 +26,24 @@ body {
     rgb(var(--background-start-rgb));
 }
 
+/* For Results Summary */
+.reaction {
+  background-color: hsl(var(--rs-light-red) / 0.1);
+  color: hsl(var(--rs-light-red));
+}
+.memory {
+  background-color: hsl(var(--rs-orange-yellow) / 0.1);
+  color: hsl(var(--rs-orange-yellow));
+}
+.verbal {
+  background-color: hsl(var(--rs-green-teal) / 0.1);
+  color: hsl(var(--rs-green-teal));
+}
+.visual {
+  background-color: hsl(var(--rs-cobalt-blue) / 0.1);
+  color: hsl(var(--rs-cobalt-blue));
+}
+
 @layer base {
   :root {
     --light-gray: 212deg 45% 89%;
@@ -35,5 +53,17 @@ body {
     --pr-cream: 30 38% 92%;
     --pr-dark-blue: 212 21% 14%;
     --pr-dark-grayish-blue: 228 12% 48%;
+
+    --rs-light-red: 0 100% 67%;
+    --rs-orange-yellow: 39 100% 56%;
+    --rs-green-teal: 166 100% 37%;
+    --rs-cobalt-blue: 234 85% 45%;
+    --rs-light-slateblue: 252 100% 67%;
+    --rs-light-royalblue: 241 81% 54%;
+    --rs-violetblue: 256, 72%, 46%;
+    --rs-persianblue: 241, 72%, 46%;
+    --rs-paleblue: 221 100% 96%;
+    --rs-light-lavender: 241 100% 89%;
+    --rs-dark-grayblue: 224 30% 27%;
   }
 }
