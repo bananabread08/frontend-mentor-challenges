@@ -1,10 +1,8 @@
 'use client';
 
-import { useReducer, useState } from 'react';
+import { useState } from 'react';
 import arrow from './assets/images/icon-arrow.svg';
 import Image from 'next/image';
-import { formReducer, initialFormState } from './reducer';
-import { FormState } from './reducer';
 import { useForm } from 'react-hook-form';
 
 export type FormInput = {

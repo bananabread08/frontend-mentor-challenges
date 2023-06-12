@@ -4,8 +4,8 @@ This is a solution to the [Age calculator app challenge on Frontend Mentor](http
 
 ### Links
 
-- [Solution URL](https://github.com/bananabread08/frontend-mentor-challenges/tree/main/src/app/results-summary)
-- [Live Site URL](https://frontend-mentor-challenges-snowy.vercel.app/results-summary)
+- [Solution URL](https://github.com/bananabread08/frontend-mentor-challenges/tree/main/src/app/age-calculator)
+- [Live Site URL](https://frontend-mentor-challenges-snowy.vercel.app/age-calculator)
 
 ### Built with
 
