@@ -59,8 +59,8 @@ const AgeCalculator = () => {
         className="flex flex-col gap-16 md:gap-4"
         onSubmit={handleSubmit(formSubmit)}
       >
-        <div className="w-full md:w-4/5 flex justify-center items-center gap-4">
-          <div className="flex-1 grid gap-2 relative">
+        <div className="flex items-center gap-4">
+          <div className="grid gap-2 relative">
             <label
               className={
                 'uppercase tracking-widest font-semibold ' +
@@ -72,7 +72,7 @@ const AgeCalculator = () => {
             </label>
             <input
               className={
-                'px-2 py-1 rounded-lg border text-[32px] font-bold ' +
+                'w-full md:w-32 px-2 py-1 rounded-lg border text-[32px] font-bold ' +
                 (errors.day ? 'border-red-400' : 'border-ac-lightgrey')
               }
               id="day"
@@ -88,7 +88,7 @@ const AgeCalculator = () => {
               </p>
             )}
           </div>
-          <div className="flex-1 grid gap-2 w-full relative">
+          <div className="flex flex-col gap-2 relative">
             <label
               className={
                 'uppercase tracking-widest font-semibold ' +
@@ -99,7 +99,7 @@ const AgeCalculator = () => {
             </label>
             <input
               className={
-                'px-2 py-1 rounded-lg border text-[32px] font-bold ' +
+                'w-full md:w-32 px-2 py-1 rounded-lg border text-[32px] font-bold ' +
                 (errors.month ? 'border-red-400' : 'border-ac-lightgrey')
               }
               id="month"
@@ -115,7 +115,7 @@ const AgeCalculator = () => {
               </p>
             )}
           </div>
-          <div className="flex-1 grid gap-2 relative">
+          <div className="grid gap-2 relative">
             <label
               className={
                 'uppercase tracking-widest font-semibold ' +
@@ -127,7 +127,7 @@ const AgeCalculator = () => {
             </label>
             <input
               className={
-                'px-2 py-1 rounded-lg border text-[32px] font-bold ' +
+                'w-full md:w-32 px-2 py-1 rounded-lg border text-[32px] font-bold ' +
                 (errors.year ? 'border-red-400' : 'border-ac-lightgrey')
               }
               id="year"
