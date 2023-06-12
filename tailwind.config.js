@@ -32,6 +32,12 @@ module.exports = {
         'rs-paleblue': 'hsl(var(--rs-paleblue) / <alpha-value>)',
         'rs-light-lavender': 'hsl(var(--rs-light-lavender) / <alpha-value>)',
         'rs-dark-grayblue': 'hsl(var(--rs-dark-grayblue) / <alpha-value>)',
+        'ac-purple': 'hsl(var(--ac-purple))',
+        'ac-lightred': 'hsl(var(--ac-lightred))',
+        'ac-offwhite': 'hsl(var(--ac-offwhite))',
+        'ac-lightgrey': 'hsl(var(--ac-lightgrey))',
+        'ac-smokeygrey': 'hsl(var(--ac-smokeygrey))',
+        'ac-offblack': 'hsl(var(--ac-offblack))',
       },
       fontFamily: {
         montserrat: ['var(--font-montserrat)'],

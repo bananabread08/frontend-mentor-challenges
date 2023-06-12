@@ -65,5 +65,12 @@ body {
     --rs-paleblue: 221 100% 96%;
     --rs-light-lavender: 241 100% 89%;
     --rs-dark-grayblue: 224 30% 27%;
+
+    --ac-purple: 259 100% 65%;
+    --ac-lightred: 0 100% 67%;
+    --ac-offwhite: 0 0% 94%;
+    --ac-lightgrey: 0 0% 86%;
+    --ac-smokeygrey: 0 1% 44%;
+    --ac-offblack: 0 0% 8%;
   }
 }

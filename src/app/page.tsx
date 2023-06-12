@@ -13,6 +13,9 @@ export default function Home() {
         <Link href="/results-summary" className="underline text-blue-600">
           Results Summary Component
         </Link>
+        <Link href="/age-calculator" className="underline text-blue-600">
+          Age Calculator App
+        </Link>
       </div>
     </main>
   );
