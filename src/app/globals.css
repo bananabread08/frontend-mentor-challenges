@@ -72,5 +72,15 @@ body {
     --ac-lightgrey: 0 0% 86%;
     --ac-smokeygrey: 0 1% 44%;
     --ac-offblack: 0 0% 8%;
+
+    --ss-red: 0 99% 70%;
+    --ss-yellow: 51 100% 49%;
+    --ss-darkcyan-500: 167 40% 24%;
+    --ss-darkcyan-300: 198 62% 26%;
+    --ss-darkcyan-100: 168 34% 41%;
+    --ss-darkblue-500: 212 27% 19%;
+    --ss-darkblue-300: 213 9% 39%;
+    --ss-darkblue-100: 232 10% 55%;
+    --ss-grayblue: 210 4% 67%;
   }
 }
