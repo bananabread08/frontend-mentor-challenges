@@ -44,6 +44,25 @@ body {
   color: hsl(var(--rs-cobalt-blue));
 }
 
+.speech-bubble {
+  position: relative;
+  box-shadow: 0 0.125rem 0.5rem rgba(0, 0, 0, 0.3),
+    0 0.0625rem 0.125rem rgba(0, 0, 0, 0.2);
+}
+
+.speech-bubble::before {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 0;
+  bottom: 100%;
+  right: 0;
+  border: 1.5rem solid transparent;
+  border-right: 1rem;
+  border-bottom-color: white;
+  filter: drop-shadow(0 -0.0625rem 0.0625rem rgba(0, 0, 0, 0.1));
+}
+
 @layer base {
   :root {
     --light-gray: 212deg 45% 89%;
