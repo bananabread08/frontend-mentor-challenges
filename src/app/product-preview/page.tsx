@@ -1,25 +1,23 @@
 import React from 'react';
 import Image from 'next/image';
-import productImage from './images/image-product-desktop.jpg';
-import productImageMobile from './images/image-product-mobile.jpg';
 import cartIcon from './images/icon-cart.svg';
 const ProductReviewCard = () => {
   return (
     <article className="sm:w-[600px] rounded-2xl font-montserrat bg-white overflow-hidden grid grid-cols-1 md:grid-cols-2">
       <picture>
         <source
-          srcSet={`${productImage}`}
-          typeof="image/jpg"
+          srcSet="./product_images/image-product-desktop.jpg"
+          type="image/jpg"
           media="(min-width: 600px)"
         />
         <source
-          srcSet={`${productImageMobile}`}
+          srcSet="./product_images/image-product-mobile.jpg"
           typeof="image/jpg"
           media="(max-width: 599px)"
         />
 
-        <Image
-          src={productImageMobile}
+        <img
+          src="./product_images/image-product-desktop.jpg"
           alt="product-image"
           className="h-full w-full object-cover"
         />
