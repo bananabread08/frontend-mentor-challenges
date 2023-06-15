@@ -45,7 +45,7 @@ module.exports = {
         'ss-yellow': 'hsl(var(--ss-yellow))',
         'ss-darkcyan-500': 'hsl(var(--ss-darkcyan-500))',
         'ss-darkcyan-300': 'hsl(var(--ss-darkcyan-300))',
-        'ss-darkcyan-100': 'hsl(var(--ss-darkcyan-100))',
+        'ss-darkcyan-100': 'hsl(var(--ss-darkcyan-100) / 0.45)',
         'ss-darkblue-500': 'hsl(var(--ss-darkblue-500))',
         'ss-darkblue-300': 'hsl(var(--ss-darkblue-300))',
         'ss-darkblue-100': 'hsl(var(--ss-darkblue-100))',
