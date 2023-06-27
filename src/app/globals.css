@@ -101,5 +101,10 @@ body {
     --ss-darkblue-300: 213 9% 39%;
     --ss-darkblue-100: 232 10% 55%;
     --ss-grayblue: 210 4% 67%;
+
+    --nf-tomato: 4 100% 67%;
+    --nf-slate-700: 234 29% 20%;
+    --nf-slate-500: 235 18% 26%;
+    --nf-slate-300: 231 7% 60%;
   }
 }

@@ -50,6 +50,10 @@ module.exports = {
         'ss-darkblue-300': 'hsl(var(--ss-darkblue-300))',
         'ss-darkblue-100': 'hsl(var(--ss-darkblue-100))',
         'ss-grayblue': 'hsl(var(--ss-grayblue))',
+        'nf-tomato': 'hsl(var(--nf-tomato))',
+        'nf-slate-700': 'hsl(var(--nf-slate-700))',
+        'nf-slate-500': 'hsl(var(--nf-slate-500))',
+        'nf-slate-300': 'hsl(var(--nf-slate-300))',
       },
       fontFamily: {
         montserrat: ['var(--font-montserrat)'],

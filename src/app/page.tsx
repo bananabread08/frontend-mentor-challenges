@@ -45,6 +45,14 @@ export default function Home() {
             Sunnyside Landing Page
           </Link>
         </li>
+        <li>
+          <Link
+            href="/newsletter-form"
+            className="underline text-blue-600 hover:text-blue-400"
+          >
+            Newsletter Form
+          </Link>
+        </li>
       </ul>
     </main>
   );
