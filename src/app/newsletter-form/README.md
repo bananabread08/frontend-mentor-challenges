@@ -4,5 +4,11 @@ This is a solution to the [Newsletter sign-up form with success message challeng
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/bananabread08/frontend-mentor-challenges/tree/main/src/app/newsletter-form)
-- Live Site URL: [Add live site URL here](https://frontend-mentor-challenges-snowy.vercel.app/newsletter-form)
+- [Solution URL](https://github.com/bananabread08/frontend-mentor-challenges/tree/main/src/app/newsletter-form)
+- [Live Site URL](https://frontend-mentor-challenges-snowy.vercel.app/newsletter-form)
+
+### Built with
+
+- [React](https://reactjs.org/) - JS library
+- [Next.js](https://nextjs.org/) - React framework
+- [Tailwind](https://tailwindcss.com/) - For styles -[react-hook-form](https://react-hook-form.com/)
