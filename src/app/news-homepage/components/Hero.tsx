@@ -18,13 +18,13 @@ export const Hero = () => {
       </div>
       <div className="grid grid-cols-1 lg:grid-cols-2 p-6 gap-4">
         <h1 className="text-5xl font-bold">The Bright Future of Web 3.0?</h1>
-        <div className="flex flex-col gap-4">
+        <div className="flex flex-col gap-4 text-nh-gray-blue-300">
           <p>
             We dive into the next evolution of the web that claims to put the
             power of the platforms back into the hands of the people. But is it
             really fulfilling its promise?
           </p>
-          <button className="w-fit bg-nh-softred py-2 px-6 uppercase text-nh-offwhite">
+          <button className="w-fit bg-nh-softred py-2 px-6 uppercase text-nh-offwhite hover:bg-nh-darkblue">
             Read More
           </button>
         </div>

@@ -6,7 +6,7 @@ import { Featured } from './components/Featured';
 
 const NewsHomepage = () => {
   return (
-    <div className="container py-12 px-6 flex flex-col gap-6">
+    <div className="container py-14 px-6 flex flex-col gap-8">
       <Navbar />
       <main className="grid grid-cols-1 lg:grid-cols-3 gap-6">
         <Hero />

@@ -26,8 +26,8 @@ export const NewArticles = () => {
       <h1 className="text-nh-softorange text-3xl font-bold mb-4">New</h1>
       <div className="flex flex-col gap-4 text-nh-offwhite">
         {newArticles.map((article, index) => (
-          <article key={article.title} className="flex flex-col gap-2">
-            <h2 className="text-nh-offwhite text-xl font-semibold">
+          <article key={article.title} className="group flex flex-col gap-2">
+            <h2 className="group-hover:text-nh-softorange text-nh-offwhite text-xl font-semibold">
               {article.title}
             </h2>
             <p className="text-nh-grayblue-100">{article.content}</p>

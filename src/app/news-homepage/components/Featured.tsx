@@ -26,7 +26,7 @@ export const Featured = () => {
   return (
     <>
       {reads.map((read, index) => (
-        <article key={read.title} className="flex items-center gap-2">
+        <article key={read.title} className="group flex items-center gap-2">
           <Image
             src={read.image}
             alt={read.title + 'image'}
@@ -37,7 +37,9 @@ export const Featured = () => {
             <h1 className="text-2xl text-nh-grayblue-100">
               {'0' + (index + 1)}
             </h1>
-            <h2 className="text-lg text-nh-gray-blue-300">{read.title}</h2>
+            <h2 className="group-hover:text-nh-softred text-lg text-nh-gray-blue-300">
+              {read.title}
+            </h2>
             <p className="text-sm text-nh-grayblue-100">{read.content}</p>
           </div>
         </article>

@@ -17,10 +17,13 @@ export const Navbar = () => {
       <div>
         <Image src={logo} alt="w logo" width={50} height={50} />
       </div>
-      <div className="hidden sm:flex justify-between items-center gap-4">
+      <div className="hidden sm:flex justify-between items-center gap-8">
         {navLinks.map((link) => (
           <div key={link}>
-            <Link href="#" className="text-nh-grayblue-100 text-lg">
+            <Link
+              href="#"
+              className="text-nh-grayblue-100 text-lg hover:text-nh-softred"
+            >
               {link}
             </Link>
           </div>
