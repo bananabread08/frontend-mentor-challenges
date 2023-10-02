@@ -106,5 +106,12 @@ body {
     --nf-slate-700: 234 29% 20%;
     --nf-slate-500: 235 18% 26%;
     --nf-slate-300: 231 7% 60%;
+
+    --nh-softorange: 35 77% 62%;
+    --nh-softred: 5 85% 63%;
+    --nh-offwhite: 36 100% 99%;
+    --nh-grayblue-100: 233 8% 79%;
+    --nh-gray-blue-300: 236 13% 42%;
+    --nh-darkblue: 240 100% 5%;
   }
 }

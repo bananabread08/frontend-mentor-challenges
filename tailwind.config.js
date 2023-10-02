@@ -9,6 +9,7 @@ module.exports = {
     extend: {
       gridTemplateColumns: {
         fluid: 'repeat(auto-fit, minmax(700px, 1fr))',
+        smFluid: 'repeat(auto-fit, minmax(25rem, 1fr))',
       },
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
@@ -54,6 +55,12 @@ module.exports = {
         'nf-slate-700': 'hsl(var(--nf-slate-700))',
         'nf-slate-500': 'hsl(var(--nf-slate-500))',
         'nf-slate-300': 'hsl(var(--nf-slate-300))',
+        'nh-softorange': 'hsl(var(--nh-softorange))',
+        'nh-softred': 'hsl(var(--nh-softred))',
+        'nh-offwhite': 'hsl(var(--nh-offwhite))',
+        'nh-grayblue-100': 'hsl(var(--nh-grayblue-100))',
+        'nh-gray-blue-300': 'hsl(var(--nh-grayblue-300))',
+        'nh-darkblue': 'hsl(var(--nh-darkblue))',
       },
       fontFamily: {
         montserrat: ['var(--font-montserrat)'],

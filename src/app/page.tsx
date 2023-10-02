@@ -53,6 +53,14 @@ export default function Home() {
             Newsletter Form
           </Link>
         </li>
+        <li>
+          <Link
+            href="/news-homepage"
+            className="underline text-blue-600 hover:text-blue-400"
+          >
+            News Homepage
+          </Link>
+        </li>
       </ul>
     </main>
   );
