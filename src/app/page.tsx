@@ -61,6 +61,14 @@ export default function Home() {
             News Homepage
           </Link>
         </li>
+        <li>
+          <Link
+            href="/job-listing"
+            className="underline text-blue-600 hover:text-blue-400"
+          >
+            Job Listing
+          </Link>
+        </li>
       </ul>
     </main>
   );
