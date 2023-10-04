@@ -113,5 +113,11 @@ body {
     --nh-grayblue-100: 233 8% 79%;
     --nh-gray-blue-300: 236 13% 42%;
     --nh-darkblue: 240 100% 5%;
+
+    --jl-darkcyan: 180 29% 50%;
+    --jl-graycyan-100: 180 52% 96%;
+    --jl-graycyan-200: 180 31% 95%;
+    --jl-graycyan-400: 180 8% 52%;
+    --jl-graycyan-600: 180 14% 20%;
   }
 }

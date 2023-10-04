@@ -61,6 +61,11 @@ module.exports = {
         'nh-grayblue-100': 'hsl(var(--nh-grayblue-100))',
         'nh-gray-blue-300': 'hsl(var(--nh-grayblue-300))',
         'nh-darkblue': 'hsl(var(--nh-darkblue))',
+        'jl-darkcyan': 'hsl(var(--jl-darkcyan))',
+        'jl-graycyan-100': 'hsl(var(--jl-graycyan-100))',
+        'jl-graycyan-200': 'hsl(var(--jl-graycyan-200))',
+        'jl-graycyan-400': 'hsl(var(--jl-graycyan-400))',
+        'jl-graycyan-600': 'hsl(var(--jl-graycyan-600))',
       },
       fontFamily: {
         montserrat: ['var(--font-montserrat)'],
