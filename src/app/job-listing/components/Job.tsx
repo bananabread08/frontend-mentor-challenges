@@ -1,15 +1,23 @@
 import { IJob } from './JobList';
 import Image from 'next/image';
 
-export const Job = ({ job }: { job: IJob }) => {
+export const Job = ({
+  job,
+  add,
+  remove,
+}: {
+  job: IJob;
+  add: (job: string) => void;
+  remove: (job: string) => void;
+}) => {
   const tags: string[] = [job.role, job.level]
     .concat(job.languages)
     .concat(job.tools);
 
   return (
-    <article className="w-full relative flex flex-col lg:flex-row gap-4 bg-white border-l-4 border-jl-darkcyan rounded-md px-6 py-10 lg:py-6">
+    <article className="w-full relative flex flex-col lg:flex-row gap-4 bg-white border-l-4 border-jl-darkcyan rounded-md p-6 shadow-xl">
       <Image
-        className="absolute lg:static -top-4 lg:w-[100px] lg:h-[100px]"
+        className="absolute lg:static -top-6 lg:w-[100px] lg:h-[100px]"
         src={job.logo}
         alt={job.company + ' logo'}
         width={50}
@@ -41,7 +49,8 @@ export const Job = ({ job }: { job: IJob }) => {
         {tags.map((tag) => (
           <li
             key={job.id + tag}
-            className="text-jl-darkcyan bg-jl-graycyan-100 p-2 font-semibold text-[1.1em]"
+            className="text-jl-darkcyan bg-jl-graycyan-100 p-2 font-semibold text-[1.1em] hover:bg-jl-darkcyan hover:text-white"
+            onClick={() => add(tag)}
           >
             {tag}
           </li>
